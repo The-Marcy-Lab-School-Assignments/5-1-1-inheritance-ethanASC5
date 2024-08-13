@@ -29,14 +29,10 @@ class Square extends Rectangle {
     super(side, side);
     this.side = side;
   }
-
-
+  /** FEEDBACK: Due to inheritance, you did not need to rewrite this method however this is a good example of polymorphism! */
   getDiagonal() {
     return Math.sqrt(2) * this.side;
-}
-
-
-
+  }
 }
 
 
